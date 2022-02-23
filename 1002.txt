@@ -1,0 +1,12 @@
+import 'dart:io';
+
+
+void main()
+{
+
+  double pi = 3.14159;
+  double R = double.parse(stdin.readLineSync());
+  double B = pi * R *R ;
+  print("A=${B.toStringAsFixed(4)}");
+
+}

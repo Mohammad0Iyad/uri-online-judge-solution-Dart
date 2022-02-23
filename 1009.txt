@@ -1,0 +1,11 @@
+import 'dart:io';
+
+void main()
+{
+   String Name = stdin.readLineSync();
+   double A = double.parse((stdin.readLineSync()));
+   double  B= double.parse((stdin.readLineSync()));
+   double TOTAL = (B * .15)+A;
+
+  print ("TOTAL = R\$ ${TOTAL.toStringAsFixed(2)}");
+}

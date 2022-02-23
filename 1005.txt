@@ -1,0 +1,28 @@
+
+import 'dart:io';
+
+
+void main()
+{
+
+  double A = double.parse((stdin.readLineSync()));
+  double B = double.parse((stdin.readLineSync()));
+  double MEDIA =(A*3.5+B*7.5)/(3.5+7.5) ;
+   
+  print ("MEDIA = ${MEDIA.toStringAsFixed(5)}");
+
+}
+
+//or
+
+import 'dart:io';
+void main()
+{
+  double A = double.parse((stdin.readLineSync()));
+  double B = double.parse((stdin.readLineSync()));
+  double avg =(A*3.5+B*7.5)/(3.5+7.5) ;
+  var MEDIA = avg.toStringAsFixed(5);
+  print ("MEDIA = $MEDIA");
+
+}
+

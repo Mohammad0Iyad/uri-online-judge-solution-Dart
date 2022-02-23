@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main()
+{
+    // Escreva a sua solução aqui
+    // Code your solution here
+    // Escriba su solución aquí
+int A = int.parse(stdin.readLineSync());
+int B = int.parse(stdin.readLineSync());
+int SOMA = A + B ;
+print ("SOMA = $SOMA");
+}

@@ -1,0 +1,23 @@
+import 'dart:io';
+
+void main()
+{
+String q = stdin.readLineSync();
+var w = q.split(" ") ;
+int A1 = int.parse(w[0]);
+int B1 =int.parse(w[1]);
+double C1 = double.parse(w[2]);
+
+String V = stdin.readLineSync();
+var r = V.split(" ") ;
+int A2 = int.parse(r[0]);
+int B2 =int.parse(r[1]);
+double C2 = double.parse(r[2]);
+
+
+   double VALOR = (B1 * C1)+(B2*C2);
+
+  print ("VALOR A PAGAR: R\$ ${VALOR.toStringAsFixed(2)}");
+
+
+}

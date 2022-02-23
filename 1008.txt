@@ -1,0 +1,10 @@
+import 'dart:io';
+void main()
+{
+   int A = int.parse((stdin.readLineSync()));
+   int B = int.parse((stdin.readLineSync()));
+   double C = double.parse((stdin.readLineSync()));
+   double D = C*B;
+   print("NUMBER = $A");
+   print ("SALARY = U\$ ${D.toStringAsFixed(2)}");
+}
